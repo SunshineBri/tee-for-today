@@ -119,7 +119,7 @@ export default function Hero() {
           className={`absolute top-[30%] left-1/2 w-32 -translate-x-1/2 pointer-events-none select-none opacity-95 ${imgScale} ${
             previewColor === "black"
               ? "mix-blend-screen drop-shadow-[0_0_6px_rgba(255,255,255,0.7)]"
-              : "mix-blend-multiply"
+              : ""
           }`}
           style={{
             maskImage: `
