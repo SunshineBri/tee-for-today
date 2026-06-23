@@ -12,7 +12,7 @@ export default function Navbar() {
           className="flex items-center gap-8 w-auto h-12 select-none"
         >
           <img
-            src="/src/assets/Logo.png"
+            src="Logo.png"
             alt="Tee For Today Logo"
             className="h-full object-contain scale-x-150"
           />
