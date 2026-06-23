@@ -60,7 +60,7 @@ export default function Hero() {
 
   const previewColor = hoverColor || shirtColor;
   const whiteShirt = "/White-shirt-men.png";
-  const blackShirt = "/src/assets/Black-shirt-men.png";
+  const blackShirt = "/Black-shirt-men.png";
 
   function getTimeLeft() {
     const midnight = new Date();
