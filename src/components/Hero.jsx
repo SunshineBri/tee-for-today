@@ -59,8 +59,8 @@ export default function Hero() {
   const shirtRef = useRef(null);
 
   const previewColor = hoverColor || shirtColor;
-  const whiteShirt = "/White-shirt-men.png";
-  const blackShirt = "/Black-shirt-men.png";
+  const whiteShirt = "White-shirt-men.png";
+  const blackShirt = "Black-shirt-men.png";
 
   function getTimeLeft() {
     const midnight = new Date();
