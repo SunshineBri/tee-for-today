@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../Logo.png" alt="Tee For Today Logo" width="150" />
+  <img src="./Logo.png" alt="Tee For Today Logo" width="150" />
 </p>
 
 # Tee For Today
