@@ -1,4 +1,6 @@
 import { useState, useEffect, useRef } from "react";
+import whiteShirt from "./assets/White-shirt-men.png"; 
+import blackShirt from "./assets/Black-shirt-men.png";
 
 const designImages = [
   "https://plus.unsplash.com/premium_photo-1747851400022-943f7163a4a2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0",
@@ -59,8 +61,6 @@ export default function Hero() {
   const shirtRef = useRef(null);
 
   const previewColor = hoverColor || shirtColor;
-  const whiteShirt = `${import.meta.env.BASE_URL}White-shirt-men.png`;
-  const blackShirt = `${import.meta.env.BASE_URL}Black-shirt-men.png`;
 
   function getTimeLeft() {
     const midnight = new Date();
