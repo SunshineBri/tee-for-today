@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react"; 
-import whiteShirt from "./assets/White-shirt-men.png"; 
-import blackShirt from "./assets/Black-shirt-men.png";
+import whiteShirt from "../assets/White-shirt-men.png"; 
+import blackShirt from "../assets/Black-shirt-men.png";
 
 const designImages = [
   "https://plus.unsplash.com/premium_photo-1747851400022-943f7163a4a2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0",
