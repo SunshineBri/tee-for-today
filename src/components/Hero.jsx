@@ -109,7 +109,7 @@ export default function Hero() {
         <img
           src={previewColor === "white" ? whiteShirt : blackShirt}
           alt="Base T‑shirt"
-          className={`w-full h-full object-contain ${imgScale}`}
+          className={`w-full h-full min-h-[inherit] object-contain ${imgScale}`}
         />
 
         {/* design overlay */}
